@@ -1,8 +1,0 @@
-version: '3.8'
-services: 
-  app: 
-    build: .
-    ports: 
-      - '8003:8000'
-    image: primos-isalive-backend
-    container_name: primos-isalive-backend
